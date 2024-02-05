@@ -1,0 +1,406 @@
+@media (max-width: 600px) {
+  /* Smartphone styles */
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Tablet styles */
+}
+
+@media (min-width: 1025px) {
+  /* Desktop styles */
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Style the image */
+#cpu-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Create a pseudo-element for the blurred background */
+body::before {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#content1-container::before {
+    background-image: url('images/computer-science-header.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Body and Content Container */
+body {
+    background-image: url('comp-sci-background-image.jpg');
+}
+
+#content1-container {
+    background-color: #a8b8be;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Header and Text Styles */
+.resume-page h1,
+.resume-page h2,
+.resume-page h3,
+.skills-page h1,
+.skills-page h2,
+.skills-page h3 {
+    text-align: center;
+}
+
+/* Flexbox and Background */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Container */
+#header-container {
+    position: relative;
+    text-align: center;
+    max-width: fit-content;
+    
+}
+
+#header-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+#logo h1 {
+    font-size: 2em;
+    margin: 0px;
+    padding: 5px;
+    background-color: #062040ed;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #10152b;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 97%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 1.5em;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #b473f1;
+}
+
+/* Footer */
+footer {
+    background-color: #1e537d;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    width: 97%;
+    margin: auto;
+}
+
+footer address {
+    margin: auto;
+    font-style: normal;
+    height: 50%;
+    width: 50%;
+}
+
+section {
+    background: linear-gradient(to bottom, #0f1126, #2677ac);
+    color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+section a,
+section a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: none;
+    color: #b473f1;
+}
+
+.intro::before {
+    content: "👋 ";
+  }
+  
+  .intro::after {
+    content: " 🌎👨‍💻";
+  }
+
+  .bio {
+    max-width: 100%; 
+    margin: 0 auto;  /* Center the bio */
+  }
+  .bio p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .bio p::before {
+    content: "👉 ";
+  }
+  
+  .bio p::after {
+    content: " 👈";
+  }
+/* Table and Text Styles */
+h1 {
+    font-size: 3em;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(to bottom, #0f1126, #2677ac);
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px auto;
+    Border-radius: 8px;
+    max-width: 96%;
+  }
+  
+  .intro {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+h2,
+h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+td {
+    border: 1px solid #FFFFFF;
+    padding: 1em;
+    text-align: left;
+}
+
+/* Contact Section */
+#contact-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#contact-section h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact-section a,
+#contact-section td a,
+td a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact-section td a:hover,
+td a:hover {
+    color: #b473f1;
+}
+
+/* General Link Styles */
+a,
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px;
+}
+
+a:hover {
+    color: #8f7ef3;
+}
+
+
+/* Main container */
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+/* Individual Section Containers */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  background-color: #284e7f; /* Outer box background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skills-list {
+  list-style-type: none;
+  background-color: #142f58; /* Inner box background */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 90%;
+    margin: auto;
+}
+
+
+/* Education Section */
+.education-box {
+    display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+    max-width: 90%;
+    margin: auto;
+ background-color: #284e7f; /* Outer box background */
+}
+
+.institution-box {
+ flex: 1;
+ background-color: #142f58;
+  border-radius: 8px;
+    flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+
+}
+/* Experience Section*/
+#experience { 
+     grid-row: 2;
+     grid-column: 1/3; 
+     text-align: right;
+}
+/* Experience Section */
+.experience-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background: linear-gradient(to bottom, #0f1126, #2677ac); /* Outer box background */
+  padding: 20px;
+  border-radius: 8px;
+    max-width: 90%;
+    margin:auto;
+}
+
+.job-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.job-box {
+  background-color: #142f58; /* Inner box background */
+  
+    padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+
+.job-duties {
+    
+ text-align: center;
+}
+
+/* Download Section */
+.download-box {
+font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Download Section */
+#download {
+    grid-row:1;
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #inner-box {
+      background-color: #284e7f; /* Outer box background */
+    background: #142f58;
+    padding: 20px;  
+    border-radius: 8px;
+  }
